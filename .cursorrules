@@ -1,0 +1,13 @@
+# MiFID II AI / Algorithmic Trading Compliance MCP - Auto-trigger Rules
+
+When the user asks about MiFID II, algo trading, HFT, RTS 6, best execution, market abuse, use mifid-ii-ai-mcp tools:
+
+- **classify_algo_strategy**: Algo trading strategy classification (DEA, HFT, market making)
+- **rts_6_testing**: RTS 6 algo testing + risk-control + circuit-breaker requirements
+- **best_execution_audit**: Best execution policy audit per Article 27
+- **market_abuse_overlay**: MAR Reg (EU) 596/2014 + algo flagging
+- **hft_notification**: HFT notification to home competent authority
+
+Install: `pip install mifid-ii-ai-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.

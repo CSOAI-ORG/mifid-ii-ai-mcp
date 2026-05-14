@@ -1,0 +1,36 @@
+# mifid-ii-ai-mcp
+# MiFID II Article 17 algorithmic trading + RTS 6 testing/risk controls + best execution AI compliance for investment firms.
+
+## Install
+```bash
+pip install mifid-ii-ai-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `classify_algo_strategy(query, api_key)`
+Algo trading strategy classification (DEA, HFT, market making)
+
+### `rts_6_testing(query, api_key)`
+RTS 6 algo testing + risk-control + circuit-breaker requirements
+
+### `best_execution_audit(query, api_key)`
+Best execution policy audit per Article 27
+
+### `market_abuse_overlay(query, api_key)`
+MAR Reg (EU) 596/2014 + algo flagging
+
+### `hft_notification(query, api_key)`
+HFT notification to home competent authority
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT
