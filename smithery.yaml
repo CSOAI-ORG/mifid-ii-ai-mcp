@@ -1,0 +1,33 @@
+name: mifid-ii-ai-mcp
+description: 'MCP server: mifid-ii-ai-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/mifid-ii-ai-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_algo_strategy
+  description: Algo trading strategy classification (DEA, HFT, market making)
+- name: rts_6_testing
+  description: RTS 6 algo testing + risk-control + circuit-breaker requirements
+- name: best_execution_audit
+  description: Best execution policy audit per Article 27
+- name: market_abuse_overlay
+  description: MAR Reg (EU) 596/2014 + algo flagging
+- name: hft_notification
+  description: HFT notification to home competent authority
+- name: search_regulation
+  description: Full-text search across 410+ articles of real EU regulation text (EUR-Lex
+    verified).
+- name: list_regulations_in_db
+  description: List all regulations in the local EUR-Lex FTS5 database.
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

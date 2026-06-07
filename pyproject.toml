@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mifid-ii-ai-mcp"
-version = "1.0.0"
+readme = "README.md"
+version = "1.0.6"
 description = "MiFID II Article 17 algorithmic trading + RTS 6 testing/risk controls + best execution AI compliance for investment firms."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -20,7 +21,7 @@ dependencies = ["mcp>=1.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai"
-Repository = "https://github.com/meok-ai-labs/mifid-ii-ai-mcp"
+Repository = "https://github.com/CSOAI-ORG/mifid-ii-ai-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]

@@ -1,0 +1,34 @@
+{
+  "name": "mifid-ii-ai-mcp",
+  "title": "Mifid Ii Ai Mcp",
+  "description": "MiFID II Article 17 algorithmic trading + RTS 6 testing/risk controls + best execution AI compliance for investment firms.",
+  "version": "1.0.6",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "classify_algo_strategy"
+    },
+    {
+      "name": "rts_6_testing"
+    },
+    {
+      "name": "best_execution_audit"
+    },
+    {
+      "name": "market_abuse_overlay"
+    },
+    {
+      "name": "hft_notification"
+    },
+    {
+      "name": "search_regulation"
+    },
+    {
+      "name": "list_regulations_in_db"
+    }
+  ]
+}
