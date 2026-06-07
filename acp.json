@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "mifid-ii-ai-mcp",
+    "description": "MiFID II Article 17 algorithmic trading + RTS 6 testing/risk controls + best execution AI compli...",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "mifid-ii-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_algo_strategy",
+      "rts_6_testing",
+      "best_execution_audit",
+      "market_abuse_overlay",
+      "hft_notification",
+      "search_regulation",
+      "list_regulations_in_db"
+    ]
+  }
+}
