@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mifid-ii-ai-mcp": {
+      "command": "uvx",
+      "args": [
+        "mifid-ii-ai-mcp"
+      ]
+    }
+  }
+}
