@@ -95,7 +95,6 @@ def _tool_with_upsell(*da, **dk):
     return wrap
 mcp.tool = _tool_with_upsell
 
-<<<<<<< Updated upstream
 def _server_meter_check(api_key: str = "") -> dict:
     """Calls the live /verify endpoint for server-side metering. Returns the JSON dict.
     Fail-open: if /verify is unreachable or KV isn't configured, returns allowed=True
@@ -116,8 +115,6 @@ def _server_meter_check(api_key: str = "") -> dict:
 _METER_URL = "https://proofof.ai/verify"
 
 
-=======
->>>>>>> Stashed changes
 @mcp.tool()
 def classify_algo_strategy(query: str = "", api_key: str = "") -> str:
     """Algo trading strategy classification (DEA, HFT, market making)
