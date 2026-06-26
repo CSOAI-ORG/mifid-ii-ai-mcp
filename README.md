@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/mifid-ii-ai-mcp.html)
 
 # Mifid Ii Ai MCP
@@ -6,6 +7,8 @@
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/mifid_ii_ai_mcp/)
+=======
+>>>>>>> Stashed changes
 mcp-name: io.github.CSOAI-ORG/mifid-ii-ai-mcp
 
 # MiFID II AI / Algorithmic Trading Compliance MCP
@@ -13,7 +16,11 @@ mcp-name: io.github.CSOAI-ORG/mifid-ii-ai-mcp
 
 > ## Buy Starter — £29/mo
 > **Signed attestations + unlimited audits + email support.**
+<<<<<<< Updated upstream
 > 👉 **[Subscribe at meok.ai](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t)** — instant HMAC signing key + Stripe-managed billing.
+=======
+> 👉 **[Subscribe at meok.ai](https://buy.stripe.com/14A3cxfsM28a5g90Q88k909)** — instant HMAC signing key + Stripe-managed billing.
+>>>>>>> Stashed changes
 >
 > Free tier remains MIT-licensed and zero-config. Upgrade only when you need signed compliance artefacts for audit.
 
@@ -55,7 +62,11 @@ npx -y @smithery/cli@latest install mifid-ii-ai-mcp --client claude
 
 This MCP server is built with **EU AI Act compliance** built-in:
 - **Free**: 10 calls/day. No API key required.
+<<<<<<< Updated upstream
 - **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t)
+=======
+- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/00wfZjcgAeUW4c5cyQ8k90K)
+>>>>>>> Stashed changes
 - **Enterprise** £1,499/mo: white-label + on-premise + SLA. hello@meok.ai
 
 - ✅ Article 9 — Risk Management System
@@ -103,13 +114,20 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 
 | Tier | Price | What you get | Stripe |
 |---|---|---|---|
+<<<<<<< Updated upstream
 | Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t> |
 | Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t> |
 | Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t> |
+=======
+| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
+| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
+| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+>>>>>>> Stashed changes
 
 > Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
 > Verify any signed report at <https://meok.ai/verify>.
 
+<<<<<<< Updated upstream
 <!-- BUY-LADDER:END -->
 
 
@@ -136,3 +154,6 @@ Once configured, ask your assistant, for example:
 - "Use `classify_algo_strategy` to …"
 - "Use `rts_6_testing` to …"
 - "Use `best_execution_audit` to …"
+=======
+<!-- BUY-LADDER:END -->
+>>>>>>> Stashed changes

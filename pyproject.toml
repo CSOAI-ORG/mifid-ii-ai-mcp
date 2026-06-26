@@ -5,7 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "mifid-ii-ai-mcp"
 readme = "README.md"
+<<<<<<< Updated upstream
 version = "1.0.8"
+=======
+version = "1.0.6"
+>>>>>>> Stashed changes
 description = "MiFID II Article 17 algorithmic trading + RTS 6 testing/risk controls + best execution AI compliance for investment firms."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
